@@ -1,4 +1,3 @@
-import React from 'react';
 import FinanceTracker from '../../components/Tracker';
 
 function Home() {
