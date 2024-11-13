@@ -1,7 +1,6 @@
-// CompleteFinanceTracker.tsx
 
 import React, { useState, useEffect } from 'react';
-import { PlusCircle, Filter, ChevronDown, Trash2, Edit2, ArrowUpCircle, ArrowDownCircle, Wallet } from 'lucide-react';
+import { PlusCircle,   Trash2,  ArrowUpCircle, ArrowDownCircle, Wallet } from 'lucide-react';
 import {
   LineChart,
   Line,
@@ -16,7 +15,7 @@ import {
   Cell
 } from 'recharts';
 
-// TypeScript interfaces
+
 interface Transaction {
   id: string;
   type: 'income' | 'expense';
